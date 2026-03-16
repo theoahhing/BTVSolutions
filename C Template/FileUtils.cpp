@@ -2,11 +2,6 @@
 
 namespace FileUtils
 {
-    bool fileExists(const std::string& path)
-    {
-        std::ifstream file(path);
-        return file.good();
-    }
 
     std::vector<std::string> readLines(const std::string& path)
     {
@@ -37,6 +32,21 @@ namespace FileUtils
         return buffer.str();
     }
 
+    std::size_t getFileSize(const std::string& path)
+    {
+        std::ifstream file(path, std::ios::binary | std::ios::ate);
+        if(!file.is_open())
+            return 0;
+
+        return static_cast<std::size_t>(file.tellg());
+    }
+
+    bool fileExists(const std::string& path)
+    {
+        std::ifstream file(path);
+        return file.good();
+    }
+    
     bool writeAllText(const std::string& path, const std::string& content)
     {
         std::ofstream file(path);
@@ -55,6 +65,11 @@ namespace FileUtils
 
         file << content;
         return true;
+    }
+
+    bool deleteFile(const std::string& path)
+    {
+        return (std::remove(path.c_str()) == 0);
     }
 
 }
