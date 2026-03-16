@@ -17,6 +17,7 @@
 #include <fstream>
 #include <istream>
 #include <string>
+#include <cstring>
 #include <thread>
 #include <chrono>
 #include <vector>
