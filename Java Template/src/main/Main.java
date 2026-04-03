@@ -32,7 +32,8 @@ package main;
         05. Wrapper classes are classes that hold objects and control how its actions are performed, often adding
             behaviour before or after those actions. In Laymen's terms: "I have an object and whenever I use my
             object, I can do extra things around what it normally does".
-        06.
+        06. Record is a special type of class designed to represent pure data (data carriers). Best explained as a
+            compact, immutable class whose main purpose is to store values.
         07.
         08.
         09.

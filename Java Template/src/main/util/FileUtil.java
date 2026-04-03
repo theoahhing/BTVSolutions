@@ -1,6 +1,9 @@
 /*
     File utilities class encapsulates/wraps a filepath (fp) and provides convenient methods for performing file-related
     operations such as reading, writing, appending, and deleting files.
+
+    NOTE: The IDE may suggest converting the class to a record class; the template structure follows an object-oriented
+          wrappers around filesystem concepts.
 */
 
 package main.util;

@@ -1,6 +1,9 @@
 /*
     Directory utilities class encapsulates/wraps a directory (dir) path and provides convenient methods for performing
     dir-related operations such as creating dirs, listing contents, and recursive deletion.
+
+    NOTE: The IDE may suggest converting the class to a record class; the template structure follows an object-oriented
+          wrappers around directory concepts.
 */
 
 package main.util;
