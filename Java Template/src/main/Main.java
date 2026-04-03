@@ -1,5 +1,13 @@
 package main;
 /*
+    Some other possible utility classes to create:
+        - ValidationUtil
+        - CollectionUtil
+        - RegexUtil
+        - ThreadUtil
+        - SystemUtil
+        - NetworkUtil
+
     Just a refresher on Java Coding. Definitions to remember:
         01. K&R style (opening brace on same line) is used in Java. Personal preference is to use Allman style
             formatting.
