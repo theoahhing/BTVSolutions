@@ -1,6 +1,7 @@
-# BTVSolutions
+# BKTV Solutions
 Software solutions for small businesses. Founders of BTV Solutions are:
 - Lachlan Boyd (IT Security Specialist)
+- Reuben Koshy (Support Software Developer)
 - Theophilus Ah-Hing (Electrical & Electronics Engineer)
 - Vishula Gamaetige (IT Specialist)
 
