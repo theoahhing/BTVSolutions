@@ -41,22 +41,48 @@ package main;
 */
 
 import java.util.Scanner; // Package for accepting user imports
+import main.misc.RouletteGenerator;
+import main.misc.RangeGenerator;
 
 public class Main
 {
     public static void main(String[] args)
     {
+        /* -------------> Uncomment for range generator <---------------------
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("Enter minimum value (x): ");
+        int x = scanner.nextInt();
 
-        System.out.print("Hello! What's your name? ");
+        System.out.print("Enter maximum value (y): ");
+        int y = scanner.nextInt();
 
-        String name = scanner.nextLine(); // next() doesn't read spaces whereas nextLine() does
+        while (true)
+        {
+            int z = RangeGenerator.generate(x, y);
+            System.out.println("Generated: " + z);
 
-        System.out.println("Hello " + name);
+            System.out.print("Press ENTER to generate again (or type exit): ");
+            scanner.nextLine(); // clear buffer
+            String input = scanner.nextLine();
 
+            if (input.equalsIgnoreCase("exit"))
+            {
+                break;
+            }
+        }
+        */
 
+        /* -------------> Uncomment for roulette generator <---------------------
+        RouletteGenerator.RouletteResult result = RouletteGenerator.generateSpin();
 
-        scanner.close();
+        System.out.println("=== Roulette Spin ===");
+        System.out.println("Number   : " + result.number);
+        System.out.println("Colour   : " + result.colour);
+        System.out.println("Odd/Even : " + result.oddEven);
+        System.out.println("Dozen    : " + result.dozen);
+        System.out.println("Row      : " + result.row);
+        */
+
     }
 }
