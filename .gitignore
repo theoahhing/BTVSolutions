@@ -6,3 +6,30 @@ C Template/.vs/C Template.slnx/v18/ipch/AutoPCH/1261a4f6d737517d/NETWORKUTILS.ip
 C Template/.vs/ProjectSettings.json
 C Template/.vs/slnx.sqlite
 C Template/.vs/VSWorkspaceState.json
+
+
+# ========================
+# Java
+# ========================
+*.class
+out/
+build/
+target/
+
+# ========================
+# IntelliJ
+# ========================
+.idea/
+*.iml
+
+# ========================
+# General
+# ========================
+*.log
+.DS_Store
+Thumbs.db
+
+# ========================
+# Environment files
+# ========================
+.env
