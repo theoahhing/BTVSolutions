@@ -44,10 +44,8 @@ import java.util.Scanner; // Package for accepting user imports
 import main.misc.RouletteGenerator;
 import main.misc.RangeGenerator;
 
-public class Main
-{
-    public static void main(String[] args)
-    {
+public class Main {
+    public static void main(String[] args) {
         /* -------------> Uncomment for range generator <---------------------
         Scanner scanner = new Scanner(System.in);
 
